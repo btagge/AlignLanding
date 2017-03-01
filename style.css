@@ -29,22 +29,19 @@ body {
 .navbar {
     background-color: transparent;
     border: none;
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
     transition: all 1s;
-} 
+}
 
 ul.nav a { color: #fff !important; }
 
 .navbarli {
-   color: white !important; 
+   color: white !important;
 }
 
 .navbar-left img {
     height: 30px;
     margin-bottom: 20px;
-    
+
 }
 
  .navbar-default.affix {
@@ -79,10 +76,11 @@ ul.nav a { color: #fff !important; }
 .jumbotron h2 {
     text-align: center;
 }
-/*.jumbotron .main-logo {
+
+.jumbotron .main-logo {
     height: 100px;
     margin-bottom: 2.5%;
-}*/
+}
 
 .jumbotron .btn {
     border: none;
@@ -90,43 +88,26 @@ ul.nav a { color: #fff !important; }
     padding: 20px;
 }
 
-.jumbotron .btn:hover {
+*.jumbotron .btn:hover {
     background-color: white;
     border: 3px solid #1C8A2C;
-    color: #24AD37; 
+    color: #24AD37;
 }
 
 /* MAIN */
-.main {
-    width: 100%;
-    height: 800px;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    display: flex;
-    
-}
 
-.row {
+.new-row {
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: center;
-    
 }
 
-.left {
-    margin-left: 300px;
-    margin-right: 0px;
-    padding-right: 0;
-    align-self: right;
-}
-
-.right {
-    align-self: left;
-    padding-left: 0;
-    margin-right: 200px;
-    margin-left: 100px;
+@media only screen and (max-width: 990px) {
+  .new-row {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* FOOTER */
@@ -157,7 +138,7 @@ footer {
     .jumbotron {
         background-position: 48% 45%;
     }
-    
+
     .navbar-toggle {
         border: none;
     }
