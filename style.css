@@ -1,0 +1,171 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url('materials/ProximaNova-Light-webfont.woff');
+}
+
+
+body {
+    font-family: proximaNova;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Nav */
+.btn {
+    border-radius: 50px;
+    margin: 10px;
+    background-color: white;
+    color: #24AD37;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn:hover {
+    background-color: #1C8A2C;
+    color: white;
+}
+
+.navbar {
+    background-color: transparent;
+    border: none;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    transition: all 1s;
+} 
+
+ul.nav a { color: #fff !important; }
+
+.navbarli {
+   color: white !important; 
+}
+
+.navbar-left img {
+    height: 30px;
+    margin-bottom: 20px;
+    
+}
+
+ .navbar-default.affix {
+    padding: 0;
+    display: none;
+  }
+
+/* JumboTron */
+
+.jumbotron {
+    background-image: url("materials/Manager_ToolsGREEN@2x.png");
+    height: 100vh;
+    min-width: 100%;
+    background-position: 40% center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.jumbotron .container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.jumbotron h2 {
+    text-align: center;
+}
+/*.jumbotron .main-logo {
+    height: 100px;
+    margin-bottom: 2.5%;
+}*/
+
+.jumbotron .btn {
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.jumbotron .btn:hover {
+    background-color: white;
+    border: 3px solid #1C8A2C;
+    color: #24AD37; 
+}
+
+/* MAIN */
+.main {
+    width: 100%;
+    height: 800px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.left {
+    margin-left: 300px;
+    margin-right: 0px;
+    padding-right: 0;
+    align-self: right;
+}
+
+.right {
+    align-self: left;
+    padding-left: 0;
+    margin-right: 200px;
+    margin-left: 100px;
+}
+
+/* FOOTER */
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+footer {
+    align-self: center;
+}
+
+@media only screen and (max-width: 765px) {
+
+    .navbar {
+        position: fixed;
+        border: none;
+        width: 375px;
+    }
+
+    .navbar-brand {
+        position: absolute;
+        left: 0;
+    }
+
+    .jumbotron {
+        background-position: 48% 45%;
+    }
+    
+    .navbar-toggle {
+        border: none;
+    }
+
+    #navbar {
+        position: absolute;
+        border: none;
+        width: 100%;
+    }
+
+}

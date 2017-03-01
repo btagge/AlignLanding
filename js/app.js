@@ -1,0 +1,1 @@
+var alignLanding = angular.module('alignLanding', []);

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="alignLanding">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Align Landing</title>
+<!-- Bootstrap -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body ng-controller="mainCtrl">
+
+<!-- NAVBAR -->
+    <nav-directive></nav-directive>
+
+<!-- JUMBOTRON -->
+    <jumbotron jumbo-header1="homeHeader1"></jumbotron>
+
+    <div class="container main">
+        <div class="row">
+            <div class="left col-md-6">
+                <img src="materials/Mock - Employee Profile@2x.png" height="600px">
+            </div>
+            <div class="col-md-6 right">
+                <h1>Clear expectations, </br> better managers</h1>
+                <hr class="my-4">
+                <p>Help managers increase employee motivaton and team collaboration. Align sets the standard to help managers coach, communicate, and follow up with their team. </p>
+            </div>
+        </div>
+    </div>
+
+<!-- FOOTER -->
+    <div class="container center">
+      <footer>
+        <p>&copy; 2017 O.C. Tanner</p>
+      </footer>
+    </div> 
+
+
+<!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/animations.js"></script>
+<!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/mainCtrl.js"></script>
+    <script type="text/javascript" src="js/mainDirective.js"></script>
+    <script type="text/javascript" src="js/navDirective.js"></script>
+    <script type="text/javascript" src="js/jumbotronDir.js"></script>
+    <script type="text/javascript" src="js/signUpDir.js"></script>
+<!-- JS plugins? -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
